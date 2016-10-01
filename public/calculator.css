@@ -66,7 +66,7 @@ p#result {
 	font-family: Arial;
 	color: #950020;
 	margin-left: 55px;
-	margin-top: -7%;
+	margin-top: -6%;
 	position: absolute;
 	z-index: 5;
 }
@@ -113,7 +113,7 @@ button#weighted {
 	background-color: #8F000D;
 	color: white;
 	position: absolute;
-	margin-left: 50%;
+	margin-left: 52%;
 	margin-top: -4%;
 	z-index: 5;
 	font-size: 12px;
@@ -127,7 +127,7 @@ button#mean {
 	background-color: #8F000D;
 	color: white;
 	position: absolute;
-	margin-left: 59%;
+	margin-left: 61%;
 	margin-top: -4%;
 	z-index: 5;
 	font-size: 12px;
