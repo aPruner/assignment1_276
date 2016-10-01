@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 
+<!--
 calculator.html:
 Assignment 1 for CMPT 276
 Author: Adam Pruner
@@ -13,7 +13,7 @@ Author: Adam Pruner
 	<title>CourSys - Formula Tester</title>
 
 	<!-- CSS imports -->
-	<link rel="calculator" type="text/css" href="site.css">
+	<link href="calculator.css" type="text/css" rel="stylesheet" >
 
 
 </head>
@@ -21,6 +21,151 @@ Author: Adam Pruner
 
 
 <body>
+
+	<div id="blackforeground"></div>
+
+	<div id="whiteforeground">
+			<h1>
+				Grade Calculator
+			</h1>
+
+			<p id="activity">
+				Activities
+			</p>
+
+			<p id="directions">
+				Give grades to the numeric activities
+			</p>
+
+			<div id="lightforeground">
+
+				<table>
+					<tr>
+						<td class="header">
+							Name
+						</td>
+						<td class="header">
+							Short Name
+						</td>
+						<td class="header">
+							Weight
+						</td>
+						<td class="header">
+							Grade
+						</td>
+						<td class="header">
+							Percent
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Activity 1
+						</td>
+						<td>
+							A1
+						</td>
+						<td>
+							<form>
+								<input class="gradeform" type="text"><br>
+							</form>
+						</td>
+						<td>
+							<form>
+								<input class="gradeform" type="text">/<br>
+								<input class="gradeform" type="text"><br>
+							</form>
+						</td>
+						<td>
+							
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Activity 2
+						</td>
+						<td>
+							A2
+						</td>
+						<td>
+							<form>
+								<input class="gradeform" type="text"><br>
+							</form>
+						</td>
+						<td>
+							<form>
+								<input class="gradeform" type="text">/<br>
+								<input class="gradeform" type="text"><br>
+							</form>
+						</td>
+						<td>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Activity 3
+						</td>
+						<td>
+							A3
+						</td>
+						<td>
+							<form>
+								<input class="gradeform" type="text"><br>
+							</form>
+						</td>
+						<td>
+							<form>
+								<input class="gradeform" type="text">/<br>
+								<input class="gradeform" type="text"><br>
+							</form>
+						</td>
+						<td>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Activity 4
+						</td>
+						<td>
+							A4
+						</td>
+						<td>
+							<form>
+								<input class="gradeform" type="text"><br>
+							</form>
+						</td>
+						<td>
+							<form>
+								<input class="gradeform" type="text">/<br>
+								<input class="gradeform" type="text"><br>
+							</form>
+						</td>
+						<td>
+						</td>
+					</tr>
+				</table>
+
+				<h2>
+					
+				</h2>
+			</div>
+
+			<p id="result">
+				Result
+			</p>
+		
+			<button id="weighted" type="button">
+				WEIGHTED
+			</button>
+
+			<button id="mean" type="button">
+				MEAN
+			</button>
+		</div>
+
 
 </body>
 

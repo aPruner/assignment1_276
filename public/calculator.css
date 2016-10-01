@@ -1,5 +1,122 @@
-/* 
+/*
 calculator.css
 Assignment 1 for CMPT 276
 Author: Adam Pruner
 */
+
+html,
+
+body {
+    margin: 0;
+    background-color: #950020;
+}
+
+div#whiteforeground {
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 110%;
+    z-index: 2;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+div#blackforeground {
+	background-color: #2E2B28;
+	width: 90%;
+	height: 140%;
+	z-index: 1;
+	margin-top: -6%;
+	margin-left: 5%;
+	position: absolute;
+}
+
+div#lightforeground {
+	background-color: #E4EBEE;
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	width: 67%;
+	height: 75%;
+	z-index: 3;
+}
+
+input.gradeform {
+	width: 75px;
+	height: 15px;
+	padding: 2px;
+	margin-bottom: 5px
+}
+
+form {
+	padding: 2px;
+	margin-bottom: 5px;
+}
+
+p#activity {
+	font-family: Arial;
+	color: #950020;
+	margin-left: 55px;
+	margin-top: 3%;
+	position: absolute;
+	z-index: 5;
+}
+
+p#result {
+	font-family: Arial;
+	color: #950020;
+	margin-left: 55px;
+	margin-top: -8%;
+	position: absolute;
+	z-index: 5;
+}
+
+p#directions {
+	font-family: Arial;
+	margin-left: 55px;
+	margin-top: 7%;
+	position: absolute;
+	z-index: 5;
+}
+
+table {
+	border: 1px solid #CBC8CD;
+	border-collapse: collapse;
+	position: absolute;
+	padding: 10px;
+	margin-left: 2%;
+	margin-top: 16%;
+	z-index: 5;
+}
+
+td {
+	border: 1px solid #CBC8CD;
+	border-collapse: collapse;
+	width: 140px;
+	padding: 2px;
+}
+
+td.header {
+	background-color: #D5D5D5;
+	font-weight: 600;
+}
+
+h1 {
+	font-family: Helvetica;
+	padding: 10px;
+	margin-left: 20px;
+	margin-top: 3%;
+	font-weight: 500;
+}
+
+button#weighted {
+	background-color: #8F000D;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: -4%;
+	z-index: 5;
+}
+
+button#mean {
+	background-color: #950020;
+}
