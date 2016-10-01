@@ -14,6 +14,8 @@ Author: Adam Pruner
 
 	<!-- CSS imports -->
 	<link href="calculator.css" type="text/css" rel="stylesheet" >
+
+	<!-- JS imports -->
 	<script src="calculator.js"></script>
 
 
@@ -68,13 +70,13 @@ Author: Adam Pruner
 						</td>
 						<td>
 							<form>
-								<input class="gradeform" type="number"><br>
+								<input id="weight1" class="gradeform" type="number"><br>
 							</form>
 						</td>
 						<td>
 							<form>
-								<input class="gradeform" type="number">/<br>
-								<input class="gradeform" type="number"><br>
+								<input id="grade1" class="gradeform" type="number">/<br>
+								<input id="max1" class="gradeform" type="number"><br>
 								<script>
 									
 								</script>
@@ -93,13 +95,13 @@ Author: Adam Pruner
 						</td>
 						<td>
 							<form>
-								<input class="gradeform" type="number"><br>
+								<input id="weight2" class="gradeform" type="number"><br>
 							</form>
 						</td>
 						<td>
 							<form>
-								<input class="gradeform" type="number">/<br>
-								<input class="gradeform" type="number"><br>
+								<input id="grade2" class="gradeform" type="number">/<br>
+								<input id="max2" class="gradeform" type="number"><br>
 							</form>
 						</td>
 						<td>
@@ -115,13 +117,13 @@ Author: Adam Pruner
 						</td>
 						<td>
 							<form>
-								<input class="gradeform" type="number"><br>
+								<input id="weight3" class="gradeform" type="number"><br>
 							</form>
 						</td>
 						<td>
 							<form>
-								<input class="gradeform" type="number">/<br>
-								<input class="gradeform" type="number"><br>
+								<input id="grade3" class="gradeform" type="number">/<br>
+								<input id="max3" class="gradeform" type="number"><br>
 							</form>
 						</td>
 						<td>
@@ -137,13 +139,13 @@ Author: Adam Pruner
 						</td>
 						<td>
 							<form>
-								<input class="gradeform" type="number"><br>
+								<input id="weight4" class="gradeform" type="number"><br>
 							</form>
 						</td>
 						<td>
 							<form>
-								<input class="gradeform" type="number">/<br>
-								<input class="gradeform" type="number"><br>
+								<input id="grade4" class="gradeform" type="number">/<br>
+								<input id="max4" class="gradeform" type="number"><br>
 							</form>
 						</td>
 						<td>
@@ -158,7 +160,7 @@ Author: Adam Pruner
 			</div>
 
 			<p id="result">
-				Result
+				Result: <br>
 			</p>
 		
 			<button id="weighted" type="button" onclick="calc_weighted()">
