@@ -79,6 +79,14 @@ p#directions {
 	z-index: 5;
 }
 
+p#resultnum {
+	font-family: Arial;
+	margin-left: 5%;
+	margin-top: -4%;
+	position: absolute;
+	z-index: 5;
+}
+
 table {
 	border: 1px solid #CBC8CD;
 	border-collapse: collapse;
